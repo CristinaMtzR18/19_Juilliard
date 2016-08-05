@@ -1,0 +1,44 @@
+/* Inserta tu codigo aqui */
+.cuadroNegro{
+	background-color: black;
+	opacity: 0.5;
+	height: 30%;
+	width: 70%;
+	position: relative;
+	left: 25px;
+	top: 40%;
+}
+
+.fondoP{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 28%;
+	height: 300px;
+	margin: 2%;
+	overflow: hidden;
+	background-position: center;
+}
+
+.fondo1{
+	background-image: url("../img/dance_12.jpg");
+}
+
+.fondo2{
+	background-image: url("../img/breakdance.jpg");
+}
+
+.fondo3{
+	background-image: url("../img/lirical-jazz.jpg");
+}
+
+.fondo4{
+	background-image: url("../img/arabe.jpg");
+}
+
+.fondo5{
+	background-image: url("../img/little.jpg");
+}
+
+.fondo6{
+	background-image: url("../img/dance_13.jpg");
+}

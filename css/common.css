@@ -1,0 +1,82 @@
+/* Inserta tu codigo que es común para todas las páginas aqui */
+h1{ /*Titulo de la página*/
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+nav>a{ /*Selector de hijo directo que me ayuda a darle estilo solo a los a hijos directos de nav*/
+	padding: 0px 75px;
+  	text-decoration: none;
+  	font-weight: bold;
+  	font-size: 18px;
+}
+
+a{
+  	text-decoration: none;
+  	font-weight: bold;
+}
+
+footer{
+	background-color: #3C3477;
+	height: 50px;
+}
+
+.miBoton{
+	background-color: #1B1F4C;
+	display:inline-block;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 5px; /*redondear esquinar de los botones*/
+}
+
+.miP2{
+	font-size: 37px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.miPC{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.fondoContacto{
+	background-image: url("../img/shoes_!.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 450px;
+
+}
+
+#nombre{
+	background-image: url("../img/ico/usuario.png");
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url("../img/ico/sobre.png");
+	background-repeat: no-repeat;
+}
+
+#mensaje{
+	background-image: url("../img/ico/lapiz.png");
+	background-repeat: no-repeat;
+}
+
+#enviar{
+	width: 500px;
+	height: 45px;
+	margin: 0%;
+}
+
+.miInput{
+	background-position: left center;
+	width: 500px;
+	height: 35px;
+}
+
+.forma{
+	padding-left: 3%;
+}
